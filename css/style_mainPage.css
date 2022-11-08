@@ -1,0 +1,82 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+body{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#41996b+0,9fe268+40,6add76+49,6add76+49,9fe268+50,6add76+51,b5e5c7+100 */
+background: rgb(65,153,107); /* Old browsers */
+background: -moz-linear-gradient(45deg,  rgba(65,153,107,1) 0%, rgba(159,226,104,1) 40%, rgba(106,221,118,1) 49%, rgba(106,221,118,1) 49%, rgba(159,226,104,1) 50%, rgba(106,221,118,1) 51%, rgba(181,229,199,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  rgba(65,153,107,1) 0%,rgba(159,226,104,1) 40%,rgba(106,221,118,1) 49%,rgba(106,221,118,1) 49%,rgba(159,226,104,1) 50%,rgba(106,221,118,1) 51%,rgba(181,229,199,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  rgba(65,153,107,1) 0%,rgba(159,226,104,1) 40%,rgba(106,221,118,1) 49%,rgba(106,221,118,1) 49%,rgba(159,226,104,1) 50%,rgba(106,221,118,1) 51%,rgba(181,229,199,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#41996b', endColorstr='#b5e5c7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+font-family: Arial;
+text-align: center;
+color: white;
+}
+
+body h1{
+  padding: 150px 0 20px 0;
+  font-size: 50px;
+  color: white;
+}
+
+.h1 span{
+  font-size: 55px;
+}
+
+.button a{
+  display: block;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.button_center_box{
+   display: inline-block;
+  line-height: 40px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  color: #ffffff;
+  width: 200px;
+  height: 44px;
+}
+
+.button_center_box1{
+  display: inline-block;
+  line-height: 40px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  color: #ffffff;
+  width: 350px;
+  height: 44px;
+}
+
+
+.button_center_box:hover{
+background-color:rgba(235,241,53,0.6);
+}
+
+.button_center_box1:hover{
+  background-color:rgba(235,241,53,0.6);
+}
+
+.list li{
+  font-size: 18px;
+  margin: 0 0 20px 0;
+  padding: 0 0 0 36px;
+  background: 
+}

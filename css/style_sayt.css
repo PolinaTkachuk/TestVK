@@ -1,0 +1,87 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+body{
+	background:#aeeb8f;
+	font-family: Arial;
+	text-align: center;
+	color: white;
+	font-size:18px;
+	}
+	
+	body h1{
+	  padding: 50px 0 20px 0;
+	  font-size: 50px;
+	  color: white;
+	  text-decoration: underline;
+	  text-decoration-color: aqua;
+	}
+	.token{
+		font-size: 35px;
+		padding:0 0 20px 0;
+		text-decoration: underline;
+	  text-decoration-color: aqua;
+	}
+	.url{
+		width: 500px;
+		height: 20px;
+		margin: 20px;
+
+	}
+	.button1{
+		margin: 10px 30px;
+		padding: 5px 7px;
+		background-color:white;
+		color: #aeeb8f;
+		width: 180px;
+	}
+	 
+	.tytle1{
+		margin: 50px 0 20px 0;
+		font-size: 20px;
+		text-decoration: underline;
+	  text-decoration-color: aqua;
+	}
+	
+	.info{
+		margin:30px;
+		line-height: 1.5;
+	}
+	/*выравниваем столбцы обращение к id*/
+	.info #info1{
+		line-height: 3;
+		padding:30px; 
+	}
+	/*для расположения общей информации по 2м столбцам */
+	.info div{
+		display: inline-block;
+		vertical-align: top;
+	 }
+	 .tytle2{
+		 margin:10px 0 70px 0;
+		font-size: 20px;
+		text-decoration: underline;
+	  text-decoration-color: aqua;
+	 }
+	 .tytle3{
+	 	display: inline-block;
+		 margin:50px 0 70px 0;
+		font-size: 20px;
+		text-decoration: underline;
+	  text-decoration-color: aqua;
+	 }

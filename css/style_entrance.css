@@ -1,0 +1,68 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+body{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#41996b+0,9fe268+40,6add76+49,6add76+49,9fe268+50,6add76+51,b5e5c7+100 */
+background: rgb(65,153,107); /* Old browsers */
+background: -moz-linear-gradient(45deg,  rgba(65,153,107,1) 0%, rgba(159,226,104,1) 40%, rgba(106,221,118,1) 49%, rgba(106,221,118,1) 49%, rgba(159,226,104,1) 50%, rgba(106,221,118,1) 51%, rgba(181,229,199,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  rgba(65,153,107,1) 0%,rgba(159,226,104,1) 40%,rgba(106,221,118,1) 49%,rgba(106,221,118,1) 49%,rgba(159,226,104,1) 50%,rgba(106,221,118,1) 51%,rgba(181,229,199,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  rgba(65,153,107,1) 0%,rgba(159,226,104,1) 40%,rgba(106,221,118,1) 49%,rgba(106,221,118,1) 49%,rgba(159,226,104,1) 50%,rgba(106,221,118,1) 51%,rgba(181,229,199,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#41996b', endColorstr='#b5e5c7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+font-family: Arial;
+text-align: center;
+}
+body h1{
+  padding: 70px 0 50px 0;
+  font-size: 45px;
+  color: white;
+}
+.h1 span{
+  font-size: 50px;
+}
+
+form{
+	margin: 0 auto; 
+	width: 300px;
+	border: 1px solid #C5FF70;
+	background-color: #C5FF70;
+	border-radius: 25%;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.fform div{
+	margin: 45px 0;
+	font-size: 19px;
+	color: #00AF1D;
+}
+
+.submit{
+	font-size: 20px;
+	margin: 18px 0;
+	padding: 5px 7px;
+	background-color:white;
+	color: #00AF1D;
+}
+
+.forgotpassword{
+	font-size: 20px;
+	margin: 18px 10px;
+}
+
+.forgotpassword:visited{
+	color: purple;
+	text-decoration:underline;
+}
